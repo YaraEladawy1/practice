@@ -1,24 +1,3 @@
-problem 4
-#include <iostream>
-using namespace std;
-struct stInfo
-{
-    int age;
-    bool HasDrivingLicense;
-};
-
-
- stInfo ReadInfo()
- {
-     stInfo Info;
-     cout<<"please enter your age"<<endl;
-     cin>>Info.age;
-
-     cout<<"do you have a driving license"<<endl;
-     cin>>Info.HasDrivingLicense;
-
-     return Info;
-
 problem 6
 #include <iostream>
 using namespace std;
